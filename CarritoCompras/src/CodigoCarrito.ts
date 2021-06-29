@@ -1,4 +1,4 @@
-"using strict";
+"use strict";
 
 // Variables
 const carrito: any = document.querySelector(`#carrito`);
