@@ -115,7 +115,7 @@ function llenarSelect(): void
 {
     for (let i: number = maximo; i >= minimo; i--) 
     {
-        const opcion: any = document.createElement(`option`);
+        const opcion: HTMLOptionElement | any = document.createElement(`option`);
         opcion.value = i;
         opcion.textContent = i;
         year.appendChild(opcion);   // Agrega las opciones de anio al select.
